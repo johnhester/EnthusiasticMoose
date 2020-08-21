@@ -64,14 +64,7 @@ namespace EnthusiasticMoose
                 answer = Console.ReadLine().ToLower();
             }
 
-            if (answer == "y")
-            {
-                return true;
-            }
-            else
-            {
-                return false;
-            }
+            return answer == "y";
         }
 
         static void CanadaQuestion()
